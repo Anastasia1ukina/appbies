@@ -1,0 +1,11 @@
+mixin screenshots()
+  section.screenshots(id="screenshots")&attributes(attributes)
+    .container
+        h2.screenshots__title App Screenshots  
+        .screenshots__wrapper.screenshots__swiper.swiper
+            .screenshots__list.swiper-wrapper
+                .screenshots__item.swiper-slide
+                    .screenshots__item.swiper-slide
+                        .screenshots__photo
+                            +img("slides", "phone-slider", "png", 270, 565, "Phone slider")
+
